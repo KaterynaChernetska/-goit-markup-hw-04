@@ -241,13 +241,11 @@ button {
 
 .principles {
   display: flex;
-  justify-content: space-around;
+ gap: 30px;
 }
-
-.principles .item + .item {
-  margin-left: 30px;
+.principles .item {
+    width: calc(( 100% - 60px) 4);
 }
-
 .icon-principles-general {
   dispaly: block;
   padding-top: 25px;
@@ -267,11 +265,13 @@ button {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  margin-right: 0;
 }
 .principles p {
+    display: flex;
+    width:270px;
   line-height: 1.71;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* -----------------------------------секція чим ми займаємося ---------------------*/
