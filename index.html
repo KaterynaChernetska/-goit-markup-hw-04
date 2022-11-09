@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,10 +37,18 @@
         </nav>
         <ul class="contacts list">
           <li class="item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-global-icon" href="mailto:info@devstudio.com">
+              <svg class="icon-contacts" width="16px" height="12px">
+                <use href="./images/cvg/icons.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="item ">
+            <a class="contacts-global-icon" href="tel:+380961111111"
+              ><svg class="icon-contacts" width="10px" height="16px">
+                <use href="./images/cvg/icons.svg#phone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -56,29 +65,49 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="title-to-delete">Наші принципи</h2>
+          <h2 class="visually-hidden">Наші принципи</h2>
           <ul class="principles list">
-            <li class="item">
+            <li class="item icon-attention">
+              <div class="icon-principles-general">
+                <svg class="icon-principles" width="70x" height="70px">
+                  <use href="./images/cvg/icons.svg#antenna"></use></svg
+                >
+              </div>
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="item">
+            <li class="item icon-timing">
+              <div class="icon-principles-general">
+                <svg class="icon-principles" width="70x" height="70px">
+                  <use href="./images/cvg/icons.svg#clock"></use></svg
+                >
+              </div>
               <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
               <p>
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="item">
+            <li class="item icon-planning">
+              <div class="icon-principles-general">
+                <svg class="icon-principles" width="70x" height="70px">
+                  <use href="./images/cvg/icons.svg#diagram"></use></svg
+                >
+              </div>
               <h3 class="title">ПЛАНУВАННЯ</h3>
               <p>
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="item">
+            <li class="item icon-technologies">
+            <div class="icon-principles-general">
+                <svg class="icon-principles" width="70x" height="70px">
+                  <use href="./images/cvg/icons.svg#astronaut"></use></svg
+                >
+            </div>
               <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p>
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -169,15 +198,50 @@
           </ul>
         </div>
       </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Постійні клієнти</h2>
+          <ul class="clients list">
+            <li class="clients-list"><a class="clients-link"  href="">
+              <svg class="icon-clients" width="106px" height="60px">
+              <use href="./images/cvg/icons.svg#companyfirst"></use></svg
+            ></a></li>
+            <li class="clients-list"><a class="clients-link" href="">
+              <svg class="icon-clients" width="106px" height="60px">
+                <use href="./images/cvg/icons.svg#companysecond"></use></svg
+              >
+            </a></li>
+            <li class="clients-list"><a class="clients-link" href="">
+              <svg class="icon-clients" width="106px" height="60px">
+                <use href="./images/cvg/icons.svg#companythird"></use></svg
+              >
+            </a></li>
+            <li class="clients-list"><a class="clients-link" href="">
+              <svg class="icon-clients" width="106px" height="60px">
+                <use href="./images/cvg/icons.svg#companyfourth"></use></svg
+              >
+            </a></li>
+            <li class="clients-list"><a class="clients-link" href="">
+              <svg class="icon-clients" width="106px" height="60px">
+                <use href="./images/cvg/icons.svg#companyfifth"></use></svg
+              >
+            </a></li>
+            <li class="clients-list"><a class="clients-link" href="">
+              <svg class="icon-clients" width="106px" height="60px">
+                <use href="./images/cvg/icons.svg#companysixth"></use></svg
+              >
+            </a></li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer-container">
+        <div class="logo-container">
           <a href="./index.html" class="footer-logo"
             >Web<span class="footer-logo-studio">Studio</span></a
           >
         </div>
-
         <address>
           <ul class="address list">
             <li>
