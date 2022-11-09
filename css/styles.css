@@ -76,11 +76,10 @@ button {
 .site-nav {
   display: flex;
   margin-left: 93px;
+  gap:50px;
 }
 
-.site-nav .item + .item {
-  margin-left: 50px;
-}
+
 /* ----------------------------стилізація навігації --------------------------------*/
 .site-nav .link {
   display: block;
@@ -318,7 +317,7 @@ button {
   gap: 30px;
 }
 .work-img {
-  display-basis: calc((100% - 30px) / 3);
+  display-basis: calc(( 100% - 30px ) / 3);
 }
 
 /*------------------------------ секція наша команда----------------------- */
@@ -342,7 +341,7 @@ button {
   text-align: center;
 }
 .photo-card {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc(( 100% - 90px ) / 4);
   text-align: center;
 
   background: #ffffff;
@@ -370,35 +369,36 @@ button {
     list-style: none;
     color: var(--svg-color);
 }
-
-.icon-clients {
-    align-self: center;
-    fill:var(--svg-color);   
-}
-
 .clients-link {    
     display:inline-flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     width: 170px;
     height: 92px;
-    color: var(--svg-color);
     border: 1px solid var(--svg-color); 
     border-radius: 4px;
+    color: var(--svg-color);
+    fill:var(--svg-color);
 }
+
+/* .icon-clients {
+    fill:var(--svg-color);   
+} */
+
 .clients-link:hover,
 .clients-link:focus {
-
     border: 1px solid var(--accent-color);
     border-radius: 4px;
     color: var(--accent-color);
     cursor: pointer;
+    fill: var(--accent-color);
 }
-.icon-clients:hover,
+
+/* .icon-clients:hover,
 .icon-clients:focus {
-    fill:currentColor;
-}
-------------------------------------підвал сайту----------------------------
+    fill: currentColor;
+} */
+/* ------------------------------------підвал сайту--  -------------------------- */
 .footer {
   background-color: var(--background-dark-color);
   padding-top: 60px;
@@ -497,7 +497,7 @@ button {
   gap: 30px;
 }
 .card {
-  width: calc((100% - 60px) / 3);
+  width: calc(( 100% - 60px ) / 3);
 }
 
 .card:hover,
