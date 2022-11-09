@@ -147,12 +147,8 @@ button {
   display: flex;
   align-items: center;
 }
-/* -----------------------------------------секція герой----------------- */
-/* .hero {
-    background:var(--background-dark-color);
-    text-align: center;
+/* -------------------------------------------секція герой------------------------ */
 
-} */
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -187,7 +183,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* -----------------------------------кнопка------------------------------- */
+/* --------------------------------------------кнопка------------------------------- */
 .button {
   background-color: var(--background-grey-color);
   color: var(--title-text-color);
@@ -216,7 +212,7 @@ button {
   color: var(--primary-white-color);
   cursor: pointer;
 }
-/* -----------------------------------заголовки секцій --------------------*/
+/* -----------------------------------------------заголовки секцій --------------------*/
 .section-title {
   color: var(--title-text-color);
 
@@ -229,7 +225,7 @@ button {
   margin-bottom: 50px;
 }
 
-/* ---------------------------секція наші принципи -------------------------*/
+/* ------------------------------------------секція наші принципи -------------------------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -261,27 +257,6 @@ button {
   max-width: 270px;
   height: 120px;
 }
-/* .principles .item::before{
-    display: block;
-    content: '';   
-    height: 120px;
-    background-color: var(--background-grey-color);
-    margin-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-
-
-.icon-attention::before {
-
-}
-.icon-timing::before{
-
-}
-.icon-planning::before {
-
-}
-.icon-technologies::before { */
 
 .principles .title {
   color: var(--title-text-color);
@@ -299,7 +274,7 @@ button {
   margin-bottom: 0;
 }
 
-/* ------------------------секція чим ми займаємося ---------------------*/
+/* -----------------------------------секція чим ми займаємося ---------------------*/
 .work {
   display: flex;
   padding-top: 0;
@@ -309,7 +284,7 @@ button {
   display-basis: calc((100% - 30px) / 3);
 }
 
-/*------------------------------ секція наша команда----------------------- */
+/*------------------------------------------ секція наша команда----------------------- */
 .team-list {
   display: flex;
   gap: 30px;
@@ -373,7 +348,7 @@ button {
   fill: var(--primary-white-color);
 }
 
-/* ------------------------------------КЛІЄНТИ -------------------------- */
+/* ----------------------------------------------------КЛІЄНТИ -------------------------- */
 
 .clients {
   display: flex;
@@ -396,9 +371,6 @@ button {
   fill: var(--svg-color);
 }
 
-/* .icon-clients {
-    fill:var(--svg-color);   
-} */
 
 .clients-link:hover,
 .clients-link:focus {
@@ -409,11 +381,8 @@ button {
   fill: var(--accent-color);
 }
 
-/* .icon-clients:hover,
-.icon-clients:focus {
-    fill: currentColor;
-} */
-/* ------------------------------------підвал сайту--  -------------------------- */
+
+/* -----------------------------------------------підвал сайту--  -------------------------- */
 .footer {
   background-color: var(--background-dark-color);
   padding-top: 60px;
@@ -511,7 +480,7 @@ button {
   fill: var(--primary-white-color);
   outline: transparent;
 }
-/* ----------------------------------сторінка портфоліо -----------------------------*/
+/* -------------------------------------------сторінка портфоліо -----------------------------*/
 .buttons {
   display: flex;
   justify-content: center;
@@ -545,7 +514,7 @@ button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* -------------------------------Наші проекти --------------------------------- */
+/* --------------------------------------Наші проекти --------------------------------- */
 .projects {
   display: flex;
   flex-wrap: wrap;
