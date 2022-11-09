@@ -356,10 +356,36 @@ button {
   font-size: 16px;
   line-height: 1.18;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 30px;
-  /* ------------------------------------КЛІЄНТИ -------------------------- */
+  margin-bottom: 16px;
+  padding-bottom: 0;
 }
+
+.social-list {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin: 0 32px 30px 32px;
+}
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:40px;
+    background-color: var(--primary-white-color)
+    border: none;
+    border-radius: 50%;
+    fill:var(--svg-color);
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    fill:var(--primary-white-color);
+}
+
+  /* ------------------------------------КЛІЄНТИ -------------------------- */
+
 .clients {
     display: flex;
     flex-wrap: no-wrap;
@@ -457,10 +483,77 @@ button {
   color: var(--accent-color);
 }
 
+
+.footer-wrap {
+    display: flex;
+    gap:70px;
+    align-items: baseline;
+
+}
+.footer-social {
+    display: inline-flex;
+    gap:10px;
+    justify-content: center; 
+/*     
+    .social-list {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        margin: 0 32px 30px 32px;
+    }
+    .social-link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width:40px;
+        background-color: var(--primary-white-color)
+        border: none;
+        border-radius: 50%;
+        fill:var(--svg-color);
+    }
+    .social-link:hover,
+    .social-link:focus {
+        background-color: var(--accent-color);
+        fill:var(--primary-white-color); */
+
+}
+.footer-social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16px/14px);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--primary-white-color);
+    margin-bottom: 20px;
+    margin-top: 0;
+   
+}
+
+.footer-link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:44px;
+    height: 44px;
+    border:none;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);
+    fill:var(--primary-white-color);
+    
+}
+.footer-link:hover,
+.footer.link:focus {
+background-color: var(--accent-color);
+fill:var(--primary-white-color);
+outline: transparent;
+}
 /* ----------------------------------сторінка портфоліо -----------------------------*/
 .buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 .buttons .item + .item {
@@ -489,6 +582,7 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 /* -------------------------------Наші проекти --------------------------------- */
 .projects {
