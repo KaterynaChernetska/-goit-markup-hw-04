@@ -481,30 +481,8 @@ button {
   display: inline-flex;
   gap: 10px;
   justify-content: center;
-  /*     
-    .social-list {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        gap:10px;
-        margin: 0 32px 30px 32px;
-    }
-    .social-link {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        width:40px;
-        background-color: var(--primary-white-color)
-        border: none;
-        border-radius: 50%;
-        fill:var(--svg-color);
-    }
-    .social-link:hover,
-    .social-link:focus {
-        background-color: var(--accent-color);
-        fill:var(--primary-white-color); */
 }
+
 .footer-social-title {
   font-weight: 700;
   font-size: 14px;
