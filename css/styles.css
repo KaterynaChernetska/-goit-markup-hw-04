@@ -241,18 +241,18 @@ button {
 
 .principles {
   display: flex;
- gap: 30px;
+  gap: 30px;
 }
 .principles .item {
     width: calc(( 100% - 60px) 4);
 }
 .icon-principles-general {
-  dispaly: block;
-  padding-top: 25px;
+  display: flex;
+  align-items: center; 
   background-color: var(--background-grey-color);
   border-radius: 4px;
   margin-bottom: 30px;
-  max-width: 270px;
+  width: 270px;
   height: 120px;
 }
 
