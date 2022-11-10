@@ -46,6 +46,7 @@ button {
 /* ------------------------------стилізація хедеру ------------------------------*/
 .header {
   border-bottom: 1px solid var(--border-color);
+  
 }
 .container {
   width: 100%;
@@ -89,6 +90,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -97,7 +99,20 @@ button {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+.site-nav .item {
+  position:relative;
+}
 
+.current::after {
+  content:'';
+  border-radius: 2px;
+  height:2px;
+  width: 100%;
+  background-color: var(--accent-color);
+  display:block;
+  position: absolute;
+  bottom: -1px;;
+}
 /* --------------------стилізація контактної інформації------------------ */
 .contacts a {
   color: var(--primary-text-color);
@@ -284,8 +299,31 @@ button {
 }
 .work-img {
   display-basis: calc((100% - 30px) / 3);
+  position: relative;
 }
+.work-title {
+  position: absolute;
+  bottom:0;
+  width:370px;
+  height:70px;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin:0;
+  padding-top: 27px;
+  /* padding-bottom: 27px; */
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    );
 
+
+}
 /*------------------------------------------ секція наша команда----------------------- */
 .team-list {
   display: flex;
@@ -444,11 +482,6 @@ button {
   gap: 70px;
   align-items: baseline;
 }
-.footer-social {
-  display: inline-flex;
-  gap: 10px;
-  justify-content: center;
-}
 
 .footer-social-title {
   font-weight: 700;
@@ -460,6 +493,13 @@ button {
   margin-bottom: 20px;
   margin-top: 0;
 }
+
+.footer-social {
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 
 .footer-link {
   display: inline-flex;
@@ -520,6 +560,7 @@ button {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .card {
   display: flex;
   width: calc((100% - 60px) / 3);
