@@ -245,12 +245,12 @@ button {
   gap: 30px;
 }
 .principles .item {
-    width: calc(( 100% - 60px) 4);
+  width: calc((100% - 60px) 4);
 }
 .icon-principles-general {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   background-color: var(--background-grey-color);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -270,8 +270,8 @@ button {
   margin-right: 0;
 }
 .principles p {
-    display: flex;
-    width:270px;
+  display: flex;
+  width: 270px;
   line-height: 1.71;
   margin: 0;
 }
@@ -331,7 +331,6 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  
 }
 .social-link {
   display: inline-flex;
@@ -342,7 +341,7 @@ button {
   border-radius: 50%;
   color: var(--svg-color);
 }
-.icon-social{
+.icon-social {
   fill: currentColor;
 }
 .social-link:hover,
@@ -373,7 +372,7 @@ button {
   color: var(--svg-color);
 }
 .icon-clients {
-  fill:currentColor;
+  fill: currentColor;
 }
 
 .clients-link:hover,
@@ -381,7 +380,6 @@ button {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
-
 
 /* -----------------------------------------------підвал сайту--  -------------------------- */
 .footer {
@@ -474,13 +472,13 @@ button {
   color: var(--primary-white-color);
 }
 .icon-footer {
-  fill:currentColor;
+  fill: currentColor;
 }
 .footer-li a:focus,
-.footer-li a:hover{
-    background-color: var(--accent-color);
-    fill: var(--primary-white-color);
-    outline: transparent;
+.footer-li a:hover {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+  outline: transparent;
 }
 /* -------------------------------------------сторінка портфоліо -----------------------------*/
 .buttons {
@@ -523,14 +521,13 @@ button {
   gap: 30px;
 }
 .card {
-    display: flex;
+  display: flex;
   width: calc((100% - 60px) / 3);
 }
 
-
 .card a:hover,
 .card a:focus {
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .projects a {
